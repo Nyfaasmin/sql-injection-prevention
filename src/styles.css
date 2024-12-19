@@ -1,0 +1,235 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #777;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Button Style */
+.btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #0066cc, #0099ff);
+  color: white;
+  padding: 12px 24px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.btn:hover {
+  background: linear-gradient(45deg, #005bb5, #007acc);
+  transform: scale(1.05);
+}
+
+/* Navbar Styling */
+.navbar {
+  background: linear-gradient(135deg, #0066cc, #004b99);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo h2 {
+  color: white;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-left: 20px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar .nav-links li {
+  margin-right: 20px;
+}
+
+.navbar .nav-links li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links li a:hover {
+  color: #ffcc00;
+}
+
+/* Hero Section */
+.hero {
+  background: url('C:/Users/patha/OneDrive/Desktop/injection/sql1/sql/front/beautiful-destination.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+  box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+  border-bottom: 5px solid #ffcc00;
+}
+
+.hero h1 {
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: lighter;
+  color: white;
+}
+
+.hero .btn {
+  margin-top: 30px;
+}
+
+.about {
+  margin-top: 50px;
+  text-align: center;
+  padding: 50px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding: 40px 0;
+  background: linear-gradient(45deg, #e6f2ff, #b3d7ff);
+}
+
+.feature {
+  width: 30%;
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.feature h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #0066cc;
+}
+
+.feature p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Login and Register Pages */
+.login-page, .register-page {
+  margin-top: 50px;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.login-page h2, .register-page h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #004b99;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #0066cc;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(45deg, #ffcc00, #ff9900);
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(45deg, #e6b800, #cc7a00);
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+  }
+}

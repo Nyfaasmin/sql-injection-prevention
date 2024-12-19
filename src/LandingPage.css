@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    background: url('C:/Users/patha/OneDrive/Desktop/injection/sql1/sql/front/luxury-stay.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 80px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  /* Services Section */
+  .services-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+  }
+  
+  .services-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .services-section .row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .services-section i {
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  /* Featured Rooms Section */
+  .featured-rooms-section {
+    padding: 60px 20px;
+  }
+  
+  .featured-rooms-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .featured-rooms-section .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-rooms-section .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .featured-rooms-section .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .featured-rooms-section .card-body h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .featured-rooms-section .card-body p {
+    color: #555;
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  
+  .testimonials-section .testimonial {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonials-section .testimonial p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials-section .testimonial h5 {
+    font-size: 16px;
+    color: #007bff;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
